@@ -22,7 +22,6 @@ function Header() {
       </Link>
       <div>
         <StyledLink to="/">Accueil</StyledLink> {/* <Link> se comporte comme une balise anchore */}
-          <StyledLink to="/survey/1">Questionnaire</StyledLink> {/* ajout du numero de question en paramètre */}
           <StyledLink to="/freelance">Profils</StyledLink>
           <StyledLink to="/survey/1" $isFullLink> {/* isFullLink permet d'utiliser le prop directement dans le style */}
             Faire le test
